@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 <template>
   <section class="not-found-page">
     <svg id="monkey_404" viewBox="0 0 800 480">

@@ -7,10 +7,14 @@
 <script>
 export default {
   name: 'login',
+  methods:{
+
+  },
 };
 </script>
 
-<style lang="scss">
+<style lang="scss">  
 .login {
+
 }
 </style>
