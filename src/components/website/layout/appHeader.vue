@@ -1,6 +1,6 @@
 <template>
   <div class="app-header">
-  app-header
+
   </div>
 </template>
 
@@ -12,5 +12,8 @@ export default {
 
 <style lang="scss">
 .app-header {
+  width: 100%;
+  height: 30px;
+  background:rgb(220,220,220);
 }
 </style>

@@ -12,5 +12,7 @@ export default {
 
 <style lang="scss">
 .app-footer {
+  width: 100%;
+  height: 60px;
 }
 </style>

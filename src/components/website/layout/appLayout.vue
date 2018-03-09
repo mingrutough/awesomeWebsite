@@ -1,11 +1,15 @@
 <template>
   <div class="app-layout">
-    <app-side-nav></app-side-nav>
     <app-header></app-header>
     <main class="app-content">
-      <transition>
-        <router-view></router-view>
-      </transition>
+      <aside>
+        <app-side-nav></app-side-nav>
+      </aside>
+      <article>
+        <transition>
+          <router-view></router-view>
+        </transition>
+      </article>
     </main>
     <app-footer></app-footer>
   </div>
@@ -28,5 +32,17 @@ export default {
 
 <style lang="scss">
 .app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url("../../../assets/appBackground1.jpg") no-repeat;
+  background-size: cover;
+  .app-content{
+    flex: 1;
+    display: flex;
+    article{
+      flex: 1;
+    }
+  }
 }
 </style>
