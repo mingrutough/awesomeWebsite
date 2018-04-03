@@ -7,7 +7,7 @@ import websiteHome from '@/components/website/layout/appLayout';
 import manageHome from '@/components/manage/manageIndex';
 
 import website from './website';
-import manage from './manage';
+// import manage from './manage';
 
 Vue.use(Router);
 
@@ -25,7 +25,7 @@ export default new Router({
       path: '/manage',
       name: 'manage',
       component: manageHome,
-      children: manage,
+      // children: manage,
     },
     {
       path: '/login',
