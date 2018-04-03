@@ -38,10 +38,10 @@ export default {
   background: url("../../../assets/appBackground1.jpg") no-repeat;
   background-size: cover;
   .app-content{
-    flex: 1;
     display: flex;
+    justify-content: center;
     article{
-      flex: 1;
+      width: 1200px;
     }
   }
 }

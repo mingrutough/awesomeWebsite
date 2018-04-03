@@ -67,6 +67,7 @@ export default {
 .app-sideNav {
   position: fixed;
   top: 60px;
+  left: 0px;
   background: rgba(200,200,200,0.6);
   border-radius: 0 6px 6px 0;
   cursor: pointer;
